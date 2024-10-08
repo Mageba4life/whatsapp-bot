@@ -1,7 +1,7 @@
 const { spawnSync } = require('child_process')
 const { existsSync, writeFileSync } = require('fs')
 
-const SESSION_ID = 'updateThis' // Edit this line only, don't remove ' <- this symbol
+const SESSION_ID = 'levanter_8c442eea91dc94bf4938e862e72c8be12' // Edit this line only, don't remove ' <- this symbol
 
 if (!existsSync('levanter')) {
   process.env.COREPACK_ENABLE=0
