@@ -26,13 +26,13 @@ DEBUG =
 module.exports = {
   VERSION: "v1.2.8",
   SESSION:
-    process.env.ASENA_SESSION === undefined ? "levanter_8c442eea91dc94bf4938e862e72c8be12" : process.env.ASENA_SESSION,
+    process.env.ASENA_SESSION === undefined ? "levanter_100fd0e38fcd194ee499417ad6cd5eb6bf" : process.env.ASENA_SESSION,
   EXT: process.env.EXT === undefined ? undefined : process.env.EXT,
   LANG:
     process.env.LANGUAGE === undefined
       ? "EN"
       : process.env.LANGUAGE.toUpperCase(),
-  HANDLERS: process.env.HANDLERS === undefined ? "^[.]" : process.env.HANDLERS,
+  HANDLERS: process.env.HANDLERS === undefined ? "^[,]" : process.env.HANDLERS,
   SEND_READ:
     process.env.SEND_READ === undefined
       ? false
