@@ -6,5 +6,4 @@ COPY . .
 
 RUN npm install
 
-CMD ["node", "bot.js"]
-
+CMD ["node", "main.js"]
