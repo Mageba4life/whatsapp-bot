@@ -1,7 +1,7 @@
 const { spawnSync } = require('child_process')
 const { existsSync, writeFileSync } = require('fs')
 
-const SESSION_ID = 'levanter_2101d2f63d81d440149446a9bdebc7da88'
+const SESSION_ID = 'levanter_210df54dd9668b489cb4135e97a2aeed7f'
 
 if (!existsSync('levanter')) {
   process.env.COREPACK_ENABLE=0
